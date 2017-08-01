@@ -23,7 +23,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'devise-i18n'
-
+gem 'paperclip'
 
 
 group :development, :test do
