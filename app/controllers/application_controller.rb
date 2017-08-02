@@ -9,6 +9,6 @@ class ApplicationController < ActionController::Base
   #Authorize variable fullname for devise module to sign up and update profile
     def configure_permitted_parameters
       devise_parameter_sanitizer.permit(:sign_up, keys: [:fullname])
-      devise_parameter_sanitizer.permit(:account_update, keys: [:fullname, :avatar, :phone_number, :description])
+      devise_parameter_sanitizer.permit(:account_update, keys: [:fullname, :avatar, :phone_number, :description, :email, :password, :password_confirmation])
     end
 end
