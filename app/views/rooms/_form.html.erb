@@ -6,6 +6,8 @@
     <div class="container">
       
       <%= form_for @room do |f| %>
+        <%= render 'shared/errors' %>
+      
         <div class="row">
           <div class="col-md-4 select">
             <div class="form-group">
@@ -102,7 +104,8 @@
               <label>Prix par nuit</label>
               <div class="input-group">
                 <%= f.text_field :price, placeholder: 'ex: 45 euros', class: 'form-control' %>
-              </div><div class= 'input-group-addon'>Euros</div>
+                <div class= 'input-group-addon'>Euros</div>
+              </div>
             </div>
           </div>
         </div>

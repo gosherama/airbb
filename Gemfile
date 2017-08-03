@@ -26,6 +26,7 @@ gem 'devise-i18n'
 gem 'rails-i18n'
 gem 'paperclip'
 gem 'toastr-rails'
+gem 'font-awesome-sass'
 
 
 group :development, :test do
