@@ -8,13 +8,11 @@
           </div>
           <div class= "panel-body">
             <span class="pull-right">
-              <%= link_to photo, remote:true, method: :delete, data: { confirm: "Attention, vous allez supprimer cette photo!"} do %>
+              <%= link_to photo, remote: true, method: :delete, data: {confirm: "Attention, vous allez supprimer cette photo!"} do %>
                 <i class= "fa fa-times fa-lg"></i>
               <% end %>
             </span>
           </div>
-          
-          
         </div>
       </div>
     <% end %>
