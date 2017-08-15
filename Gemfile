@@ -27,6 +27,7 @@ gem 'rails-i18n'
 gem 'paperclip'
 gem 'toastr-rails'
 gem 'font-awesome-sass'
+gem 'geocoder'
 
 
 group :development, :test do
